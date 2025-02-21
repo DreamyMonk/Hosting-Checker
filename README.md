@@ -60,15 +60,6 @@ This project uses the [ip-api.com](http://ip-api.com) API.  It's a free API, but
 *   **API Key:**  While not required for basic usage, ip-api.com *may* offer API keys for higher usage limits or more features. Check their documentation.
 *   **Alternative APIs:** If you need more robust features, higher rate limits, or different data, consider alternative IP geolocation APIs (e.g., MaxMind GeoIP, IP2Location). You would need to modify the PHP code to use a different API.
 
-## Improvements and Future Enhancements
-
-*   **Caching:** As mentioned above, implementing caching would significantly improve performance and reduce API calls.
-*   **Input Validation (Frontend):** Add more robust input validation on the frontend (JavaScript) to catch errors before sending the request to the server. This can include checking for spaces, invalid characters, etc.
-*   **More Detailed Information:**  Explore adding more detailed information from the `ip-api.com` API (or a different API), such as ASN, timezone, or proxy detection.
-*   **Bulk Checking:**  Allow users to enter multiple domains at once (e.g., from a text area or a CSV file).
-*   **History:** Store a history of previous checks (using local storage or a database).
-*   **Unit Tests:** Add unit tests for the PHP and JavaScript code to ensure reliability.
-
 ## Contributing
 
 Contributions are welcome! If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request.  Follow standard Git practices (fork, branch, commit, pull request).
