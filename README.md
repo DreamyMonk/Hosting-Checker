@@ -38,7 +38,7 @@ This project provides a simple web-based tool to check the hosting information o
 1.  **Clone the repository:**
 
     ```bash
-    git clone <repository_url>
+    git clone https://github.com/DreamyMonk/Hosting-Checker
     cd <repository_directory>
     ```
 
